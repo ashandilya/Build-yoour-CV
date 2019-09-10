@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".googleSignIn">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="TODO"
+        android:src="@drawable/gyc"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/el_messiri_bold"
+        android:text="get yoour CV"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:buttonSize="standard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.914"
+        tools:ignore="MissingConstraints" />
+
+    <!--Custom SignIn with Google Button-->
+<!--
+    <androidx.cardview.widget.CardView
+        android:id="@+id/signIn_btn"
+        android:layout_below="@id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        tools:cardCornerRadius="30dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="12dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/google_logo"
+                android:layout_marginEnd="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/el_messiri_semibold"
+                android:text="Sign In with Google"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

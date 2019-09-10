@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/el_messiri_bold</item>
+        <item>@font/el_messiri_medium</item>
+        <item>@font/el_messiri_semibold</item>
+    </array>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/user_Profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_perm_identity"/>
+
+    <item
+        android:id="@+id/sampleCv"
+        android:title="Sample CV"
+        android:icon="@drawable/ic_content_copy"/>
+
+    <item
+        android:id="@+id/nav_setting"
+        android:title="Setting"
+        android:icon="@drawable/ic_settings"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="LogOut"
+        android:icon="@drawable/ic_exit_to_app"/>
+
+</menu>

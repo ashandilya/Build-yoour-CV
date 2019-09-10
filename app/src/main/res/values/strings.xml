@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">get yoour CV</string>
+    <string name="ed1">UserName</string>
+    <string name="ed2">Password</string>
+    <string name="btn1">Login</string>
+    <string name="btn2">NewUser</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>
