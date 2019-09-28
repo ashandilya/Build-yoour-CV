@@ -1241,7 +1241,7 @@
             android:textColor="@color/red"
             android:textSize="30sp"
             android:padding="16dp"
-            android:fontFamily="@font/el_messiri_bold"/>
+            android:fontFamily="@font/poppins"/>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -1268,7 +1268,7 @@
             android:hint="Reading/Gaming/Research"
             android:textSize="25sp"
             android:textColor="@color/black"
-            android:fontFamily="@font/el_messiri_medium"  />
+            android:fontFamily="@font/poppins"  />
     </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -1281,7 +1281,7 @@
             android:textColor="@color/red"
             android:textSize="30sp"
             android:padding="16dp"
-            android:fontFamily="@font/el_messiri_bold"/>
+            android:fontFamily="@font/poppins"/>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -1308,7 +1308,7 @@
             android:text="Industries Visited"
             android:textSize="25sp"
             android:textColor="@color/black"
-            android:fontFamily="@font/el_messiri_medium"  />
+            android:fontFamily="@font/poppins"  />
 
         <TextView
             android:id="@+id/CDETNDURONE"
@@ -1317,7 +1317,7 @@
             android:text="Company Details and Durations  :"
             android:textSize="16sp"
             android:textColor="@color/black"
-            android:fontFamily="@font/el_messiri_medium"  />
+            android:fontFamily="@font/poppins"  />
 
         <EditText
             android:id="@+id/cdetndurone"
@@ -1325,7 +1325,7 @@
             android:layout_height="wrap_content"
             android:hint="Company Name"
             android:textAlignment="textStart"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
@@ -1334,7 +1334,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Inplant Training attended"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="25sp" />
 
@@ -1343,7 +1343,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Company Details and Durations"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="16sp" />
 
@@ -1352,7 +1352,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter details"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="20sp" />
     </LinearLayout>
@@ -1364,7 +1364,7 @@
             android:layout_height="wrap_content"
             android:padding="16dp"
             android:text="Achievements"
-            android:fontFamily="@font/el_messiri_bold"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/red"
             android:textSize="30sp" />
 
@@ -1390,7 +1390,7 @@
             android:id="@+id/achieve"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="25sp"
             android:hint="Won 1st prize in technical festival" />
@@ -1405,7 +1405,7 @@
             android:layout_height="wrap_content"
             android:text="‍Curricular Activities"
             android:padding="16dp"
-            android:fontFamily="@font/el_messiri_bold"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/red"
             android:textSize="30sp" />
 
@@ -1416,7 +1416,7 @@
             android:text="(Co/Extra)Curricular Activities"
             android:textColor="@color/red"
             android:paddingStart="16dp"
-            android:fontFamily="@font/el_messiri_bold"
+            android:fontFamily="@font/poppins"
             android:textSize="20sp" />
 
     <androidx.cardview.widget.CardView
@@ -1441,7 +1441,7 @@
             android:id="@+id/coextra"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textAlignment="textStart"
             android:textColor="@color/black"
             android:textSize="25sp"
@@ -1458,7 +1458,7 @@
             android:padding="16dp"
             android:textColor="@color/red"
             android:textSize="30sp"
-            android:fontFamily="@font/el_messiri_bold" />
+            android:fontFamily="@font/poppins" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -1483,7 +1483,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Name"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="25sp" />
 
@@ -1495,14 +1495,14 @@
             android:textSize="25sp"
             android:textAlignment="textStart"
             android:textColor="@color/black"
-            android:fontFamily="@font/el_messiri_medium"/>
+            android:fontFamily="@font/poppins"/>
 
         <TextView
             android:id="@+id/DESIGN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Designation"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="25sp" />
 
@@ -1514,7 +1514,7 @@
             android:textSize="25sp"
             android:textAlignment="textStart"
             android:textColor="@color/black"
-            android:fontFamily="@font/el_messiri_medium" />
+            android:fontFamily="@font/poppins" />
 
         <TextView
             android:id="@+id/INAME"
@@ -1567,11 +1567,11 @@
             android:id="@+id/mobno"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="enter here"
+            android:hint="+91 546987123"
             android:textSize="25sp"
             android:textAlignment="textStart"
             android:textColor="@color/black"
-            android:fontFamily="@font/el_messiri_medium"/>
+            android:fontFamily="@font/poppins"/>
     </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -1584,7 +1584,7 @@
             android:textColor="@color/red"
             android:textSize="30sp"
             android:padding="16dp"
-            android:fontFamily="@font/el_messiri_bold" />
+            android:fontFamily="@font/poppins" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -1609,7 +1609,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Objectives"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
@@ -1617,11 +1617,11 @@
             android:id="@+id/cobject"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="enter here"
+            android:hint="Enter Details"
             android:textSize="25sp"
             android:textAlignment="textStart"
             android:textColor="@color/black"
-            android:fontFamily="@font/el_messiri_medium" />
+            android:fontFamily="@font/poppins" />
     </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -1634,7 +1634,7 @@
             android:textColor="@color/red"
             android:textSize="30sp"
             android:padding="16dp"
-            android:fontFamily="@font/el_messiri_bold" />
+            android:fontFamily="@font/poppins" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -1660,7 +1660,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Date and place"
-            android:fontFamily="@font/el_messiri_bold"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="25sp" />
 
@@ -1668,28 +1668,28 @@
             android:id="@+id/datetwo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="enter Date here"
+            android:hint="28/09/2019"
             android:textSize="25sp"
             android:textAlignment="textStart"
             android:textColor="@color/black"
-            android:fontFamily="@font/el_messiri_medium"/>
+            android:fontFamily="@font/poppins"/>
 
         <EditText
             android:id="@+id/place"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="enter place here"
+            android:hint="Kalyani"
             android:textSize="25sp"
             android:textAlignment="textStart"
             android:textColor="@color/black"
-            android:fontFamily="@font/el_messiri_medium"/>
+            android:fontFamily="@font/poppins"/>
 
         <TextView
             android:id="@+id/DEC"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Declaration"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="25sp" />
 
@@ -1697,11 +1697,11 @@
             android:id="@+id/dec"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="enter here"
+            android:hint="I ............. here by declear that all information enter by me is valid. "
             android:textSize="25sp"
             android:textAlignment="textStart"
             android:textColor="@color/black"
-            android:fontFamily="@font/el_messiri_medium" />
+            android:fontFamily="@font/poppins" />
     </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -1715,10 +1715,10 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:fontFamily="@font/el_messiri_bold"
-                android:hint="File Name"
-                android:textColorHint="@color/white"
-                android:textColor="@color/white" />
+                android:fontFamily="@font/poppins"
+                android:hint="myCv"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/btnCreate"
