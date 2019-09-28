@@ -13,7 +13,11 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name="com.ashandilya.android.get_your_cv.menu"></activity>
         <activity android:name="com.ashandilya.android.get_your_cv.googleSignIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name="com.ashandilya.android.get_your_cv.LoginActivity" />
         <activity
@@ -28,13 +32,7 @@
         <activity android:name="com.ashandilya.android.get_your_cv.Image1Activity" />
         <activity android:name="com.ashandilya.android.get_your_cv.Image2Activity" />
         <activity android:name="com.ashandilya.android.get_your_cv.Image3Activity" />
-        <activity android:name="com.ashandilya.android.get_your_cv.PdfActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name="com.ashandilya.android.get_your_cv.PdfActivity" />
 
         <meta-data
             android:name="preloaded_fonts"
