@@ -233,7 +233,7 @@
                         android:id="@+id/menu"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:onClick="menu"
+                        android:onClick="openMenu"
                         android:padding="5dp"
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/ic_menu_black_24dp"/>
