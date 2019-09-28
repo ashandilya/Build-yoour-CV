@@ -4,5 +4,7 @@
         <item>@font/el_messiri_bold</item>
         <item>@font/el_messiri_medium</item>
         <item>@font/el_messiri_semibold</item>
+        <item>@font/poppins_bold</item>
+        <item>@font/poppins_medium</item>
     </array>
 </resources>

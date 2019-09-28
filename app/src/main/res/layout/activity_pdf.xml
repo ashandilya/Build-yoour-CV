@@ -37,39 +37,39 @@
             android:layout_gravity="end"
             app:popupTheme="@style/Theme.AppCompat.Light">
 
-            <ImageView
+           <!-- <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="openMenu"
                 android:src="@drawable/ic_menu_black_24dp"
-                android:id="@+id/menu"/>
+                android:id="@+id/menu"/>-->
 
 
         </androidx.appcompat.widget.Toolbar>
 
 <!--Profile Card-->
-        <androidx.cardview.widget.CardView
+       <!-- <androidx.cardview.widget.CardView
             android:id="@+id/profileCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:cardCornerRadius="12dp"
             app:cardElevation="10dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="10dp">-->
 
             <LinearLayout
                 android:id="@+id/user_profileImage_layout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:paddingTop="20dp"
+                android:layout_gravity="center_horizontal"
                 android:paddingBottom="24dp"
                 android:paddingHorizontal="16dp">
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/user_profileImage"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
                     android:padding="15dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/ic_perm_identity"
@@ -82,7 +82,7 @@
                     android:layout_gravity="center"
                     android:text="@string/app_name"
                     android:textColor="@color/black"
-                    android:textSize="16sp" />
+                    android:textSize="20sp" />
 
               <!--  <TextView
                     android:id="@+id/id"
@@ -111,44 +111,146 @@
                     android:layout_gravity="center"
                     android:paddingHorizontal="8dp">
 
-                    <ImageView
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="15dp"
+                        android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/twitter"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:onClick="linkedIn"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginEnd="15dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
                         android:src="@drawable/linkedin"/>
 
-                    <ImageView
+                    <TextView
+                        android:id="@+id/linkedInTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LinkedIn"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/el_messiri_medium"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="15dp"
+                        android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/facebook"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:layout_marginEnd="15dp"
                         android:onClick="facebook"
+                        android:padding="5dp"
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/facebook"/>
 
-                    <ImageView
+                        <TextView
+                            android:id="@+id/facebookTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Facebook"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/el_messiri_medium"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="15dp"
+                        android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/linkedIn"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:layout_marginEnd="15dp"
                         android:onClick="twitter"
+                        android:padding="5dp"
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/twitter"/>
 
-                    <ImageView
+                        <TextView
+                            android:id="@+id/twitterTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Twitter"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/el_messiri_medium"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="15dp"
+                        android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/gmail"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:onClick="gmail"
+                        android:padding="5dp"
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/gmail"/>
+
+                        <TextView
+                            android:id="@+id/gmailTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gmail"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/el_messiri_medium"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="15dp"
+                        android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/menu"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:onClick="menu"
+                        android:padding="5dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_menu_black_24dp"/>
+
+                        <TextView
+                            android:id="@+id/menuTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Menu"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/el_messiri_medium"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
                 </LinearLayout>
 
             </LinearLayout>
-        </androidx.cardview.widget.CardView>
+       <!-- </androidx.cardview.widget.CardView>-->
 
 <!--Personal Information-->
         <TextView
@@ -188,8 +290,8 @@
                 android:id="@+id/NAME"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
                 android:text="Full Name"
-                android:fontFamily="@font/el_messiri_medium"
                 android:textColor="@color/black"
                 android:textSize="25sp" />
 
@@ -198,11 +300,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:autofillHints=""
+                android:fontFamily="@font/poppins"
+                android:hint="Bruce Wayne"
                 android:inputType="textPersonName"
                 android:textAlignment="textStart"
-                android:fontFamily="@font/el_messiri_medium"
-                android:textSize="25sp"
-                android:autofillHints="" />
+                android:textSize="25sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -215,8 +318,8 @@
                 android:id="@+id/ADDRESS"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
                 android:text="Full Address"
-                android:fontFamily="@font/el_messiri_medium"
                 android:textColor="@color/black"
                 android:textSize="25sp" />
 
@@ -225,11 +328,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:fontFamily="@font/el_messiri_medium"
+                android:autofillHints=""
+                android:fontFamily="@font/poppins"
+                android:hint="Gotham City, Pin code: 12345, State: Somthing"
                 android:inputType="textPostalAddress"
                 android:textAlignment="textStart"
-                android:textSize="25sp"
-                android:autofillHints="" />
+                android:textSize="25sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -243,7 +347,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Email"
-                android:fontFamily="@font/el_messiri_medium"
+                android:fontFamily="@font/poppins"
                 android:textColor="@color/black"
                 android:textSize="25sp" />
 
@@ -252,9 +356,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:fontFamily="@font/el_messiri_medium"
+                android:fontFamily="@font/poppins"
                 android:inputType="textEmailAddress"
-                android:autofillHints=""
+                android:hint="bruce@Batman.com"
                 android:textAlignment="textStart"
                 android:textSize="25sp" />
         </LinearLayout>
@@ -270,7 +374,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Contact no"
-                android:fontFamily="@font/el_messiri_medium"
+                android:fontFamily="@font/poppins"
                 android:textColor="@color/black"
                 android:textSize="25sp" />
 
@@ -279,8 +383,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:autofillHints=""
-                android:fontFamily="@font/el_messiri_medium"
+                android:hint="+91 123456789"
+                android:fontFamily="@font/poppins"
                 android:inputType="phone"
                 android:textAlignment="textStart"
                 android:textSize="25sp" />
@@ -297,7 +401,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Date of Birth"
-                android:fontFamily="@font/el_messiri_medium"
+                android:fontFamily="@font/poppins"
                 android:textColor="@color/black"
                 android:textSize="25sp" />
 
@@ -307,7 +411,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:inputType="date"
-                android:fontFamily="@font/el_messiri_medium"
+                android:hint="23rd March 1998"
+                android:fontFamily="@font/poppins"
                 android:textAlignment="textStart"
                 android:textSize="25sp" />
         </LinearLayout>
@@ -323,7 +428,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Known languages"
-                android:fontFamily="@font/el_messiri_medium"
+                android:fontFamily="@font/poppins"
                 android:textColor="@color/black"
                 android:textSize="25sp" />
 
@@ -332,8 +437,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:autofillHints=""
-                android:fontFamily="@font/el_messiri_medium"
+                android:hint="English, Hindi, Spanish,German"
+                android:fontFamily="@font/poppins"
                 android:inputType="textShortMessage"
                 android:textAlignment="textStart"
                 android:textSize="25sp" />
@@ -350,7 +455,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Nationality"
-                android:fontFamily="@font/el_messiri_medium"
+                android:fontFamily="@font/poppins"
                 android:textColor="@color/black"
                 android:textSize="25sp" />
 
@@ -359,8 +464,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:autofillHints=""
-                android:fontFamily="@font/el_messiri_medium"
+                android:hint="Indian"
+                android:fontFamily="@font/poppins"
                 android:inputType="textCapCharacters"
                 android:textAlignment="textStart"
                 android:textSize="25sp" />
@@ -377,7 +482,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Marital Status"
-                android:fontFamily="@font/el_messiri_medium"
+                android:fontFamily="@font/poppins"
                 android:textColor="@color/black"
                 android:textSize="25sp" />
 
@@ -387,7 +492,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:autofillHints=""
-                android:fontFamily="@font/el_messiri_medium"
+                android:hint="S(Single), M(Married)"
+                android:fontFamily="@font/poppins"
                 android:inputType="text"
                 android:textAlignment="textStart"
                 android:textSize="25sp" />
@@ -403,7 +509,7 @@
             android:padding="16dp"
             android:textColor="@color/red"
             android:textSize="30sp"
-            android:fontFamily="@font/el_messiri_bold" />
+            android:fontFamily="@font/poppins" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -427,7 +533,7 @@
             android:id="@+id/CTEN"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:text="Class X / Equivalent info"
             android:textColor="#1f849f" />
 
@@ -443,7 +549,7 @@
                 android:text="Name of the institue"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:fontFamily="@font/el_messiri_medium"/>
+                android:fontFamily="@font/poppins"/>
 
             <EditText
                 android:id="@+id/noiten"
@@ -455,7 +561,7 @@
                 android:textAlignment="textStart"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:fontFamily="@font/el_messiri_medium" />
+                android:fontFamily="@font/poppins" />
         </LinearLayout>
 
         <LinearLayout
@@ -470,18 +576,18 @@
                 android:text="Year of passing"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:fontFamily="@font/el_messiri_medium" />
+                android:fontFamily="@font/poppins" />
 
             <EditText
                 android:id="@+id/yopten"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:autofillHints=""
+                android:hint="2018"
                 android:textAlignment="textStart"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:fontFamily="@font/el_messiri_medium"/>
+                android:fontFamily="@font/poppins"/>
         </LinearLayout>
 
         <LinearLayout
@@ -496,18 +602,18 @@
                 android:text="percentage%/CGPA"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:fontFamily="@font/el_messiri_medium" />
+                android:fontFamily="@font/poppins" />
 
             <EditText
                 android:id="@+id/perten"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:autofillHints=""
+                android:hint="70%/7.5"
                 android:textAlignment="textStart"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:fontFamily="@font/el_messiri_medium" />
+                android:fontFamily="@font/poppins" />
         </LinearLayout>
 
         <TextView
@@ -530,7 +636,7 @@
                 android:text="Name of the institue"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:fontFamily="@font/el_messiri_medium" />
+                android:fontFamily="@font/poppins" />
 
             <EditText
                 android:id="@+id/noitwe"
@@ -541,7 +647,7 @@
                 android:textAlignment="textStart"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:fontFamily="@font/el_messiri_medium" />
+                android:fontFamily="@font/poppins" />
         </LinearLayout>
 
         <LinearLayout
@@ -556,18 +662,18 @@
                 android:text="Year of passing"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:fontFamily="@font/el_messiri_medium" />
+                android:fontFamily="@font/poppins" />
 
             <EditText
                 android:id="@+id/yoptwe"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:autofillHints=""
+                android:hint="2020"
                 android:textAlignment="textStart"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:fontFamily="@font/el_messiri_medium" />
+                android:fontFamily="@font/poppins" />
         </LinearLayout>
 
         <LinearLayout
@@ -582,25 +688,25 @@
                 android:text="percentage%/CGPA"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:fontFamily="@font/el_messiri_medium" />
+                android:fontFamily="@font/poppins" />
 
             <EditText
                 android:id="@+id/pertwe"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:autofillHints=""
+                android:hint="78%/8.5"
                 android:textAlignment="textStart"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:fontFamily="@font/el_messiri_medium" />
+                android:fontFamily="@font/poppins" />
         </LinearLayout>
 
         <TextView
             android:id="@+id/GINFO"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:text="Graduation info:"
             android:textColor="#1f849f" />
 
@@ -616,18 +722,18 @@
                 android:text="Name of the College"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:fontFamily="@font/el_messiri_medium" />
+                android:fontFamily="@font/poppins" />
 
             <EditText
                 android:id="@+id/noicol"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:autofillHints=""
+                android:hint="Name of College"
                 android:textAlignment="textStart"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:fontFamily="@font/el_messiri_medium"/>
+                android:fontFamily="@font/poppins"/>
         </LinearLayout>
 
         <LinearLayout
@@ -642,18 +748,18 @@
                 android:text="Year of passing  :"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:fontFamily="@font/el_messiri_medium" />
+                android:fontFamily="@font/poppins" />
 
             <EditText
                 android:id="@+id/yopcol"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:autofillHints=""
+                android:hint="2024"
                 android:textAlignment="textStart"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:fontFamily="@font/el_messiri_medium" />
+                android:fontFamily="@font/poppins" />
         </LinearLayout>
 
         <LinearLayout
@@ -665,21 +771,21 @@
                 android:id="@+id/PERCOL"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="DGPA"
+                android:text="SGPA"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:fontFamily="@font/el_messiri_medium"/>
+                android:fontFamily="@font/poppins"/>
 
             <EditText
                 android:id="@+id/percol"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:autofillHints=""
+                android:hint="7.4"
                 android:textAlignment="textStart"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:fontFamily="@font/el_messiri_medium" />
+                android:fontFamily="@font/poppins" />
         </LinearLayout>
     </LinearLayout>
     </androidx.cardview.widget.CardView>
