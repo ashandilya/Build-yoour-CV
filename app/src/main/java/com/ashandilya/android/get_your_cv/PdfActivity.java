@@ -106,12 +106,12 @@ public class PdfActivity extends AppCompatActivity {
             Glide.with(this).load(String.valueOf(personPhoto)).into(imageView_profile);
         }
 
-        setupToolbar();//this function given by me.
-        navigationView=findViewById(R.id.navigation_view);
-        menuItemClick();
+        //setupToolbar();//this function given by me.
+        //navigationView=findViewById(R.id.navigation_view);
+        //menuItemClick();
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayShowTitleEnabled(false);
+       /* ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayShowTitleEnabled(false);*/
 
         fname = findViewById(R.id.fname);
         fadd = findViewById(R.id.fadd);
@@ -410,7 +410,7 @@ public class PdfActivity extends AppCompatActivity {
 
 
 
-    private void menuItemClick() {
+    /*private void menuItemClick() {
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -434,9 +434,9 @@ public class PdfActivity extends AppCompatActivity {
             }
         });
 
-    }
+    }*/
 
-    private void setupToolbar() {
+    /*private void setupToolbar() {
         toolbar= findViewById(R.id.toolBar);
         setSupportActionBar(toolbar);
         drawerLayout= findViewById(R.id.drawerLayout);
@@ -445,7 +445,7 @@ public class PdfActivity extends AppCompatActivity {
         toggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.white));
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
-    }
+    }*/
   /*  public void toast(String item){
         Toast.makeText(PdfActivity.this,item,Toast.LENGTH_LONG).show();
     }*/
