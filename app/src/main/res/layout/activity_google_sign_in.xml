@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".googleSignIn">
+    tools:context="com.ashandilya.android.get_your_cv.googleSignIn">
 
     <ImageView
         android:id="@+id/logo"
@@ -13,22 +13,28 @@
         android:layout_centerHorizontal="true"
         android:contentDescription="TODO"
         android:src="@drawable/gyc"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="139dp" />
+        app:layout_constraintBottom_toTopOf="@+id/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/app_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:layout_marginBottom="256dp"
         android:fontFamily="@font/el_messiri_bold"
         android:text="get yoour CV"
         android:textColor="#000000"
         android:textSize="32sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="113dp"
-        tools:layout_editor_absoluteY="348dp" />
+        app:layout_constraintBottom_toTopOf="@+id/sign_in_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/sign_in_button"

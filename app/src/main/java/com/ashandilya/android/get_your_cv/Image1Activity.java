@@ -1,4 +1,4 @@
-package com.example.shiraz.get_your_cv;
+package com.ashandilya.android.get_your_cv;
 
 import android.content.Intent;
 
@@ -9,6 +9,8 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.ImageView;
+
+import com.example.shiraz.get_your_cv.R;
 
 public class Image1Activity extends AppCompatActivity {
     Toolbar toolbar;

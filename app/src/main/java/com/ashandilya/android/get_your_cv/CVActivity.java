@@ -1,4 +1,4 @@
-package com.example.shiraz.get_your_cv;
+package com.ashandilya.android.get_your_cv;
 
 import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+
+import com.example.shiraz.get_your_cv.R;
 
 public class CVActivity extends AppCompatActivity {
 

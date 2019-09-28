@@ -1,12 +1,12 @@
-package com.example.shiraz.get_your_cv;
+package com.ashandilya.android.get_your_cv;
 
 import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import androidx.cardview.widget.CardView;
 import android.util.Log;
 import android.view.View;
 
+import com.example.shiraz.get_your_cv.R;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;

@@ -1,7 +1,9 @@
-package com.example.shiraz.get_your_cv;
+package com.ashandilya.android.get_your_cv;
 
 import android.content.Intent;
 import androidx.annotation.NonNull;
+
+import com.example.shiraz.get_your_cv.R;
 import com.google.android.material.navigation.NavigationView;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;

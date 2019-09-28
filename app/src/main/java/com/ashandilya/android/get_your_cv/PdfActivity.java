@@ -1,4 +1,4 @@
-package com.example.shiraz.get_your_cv;
+package com.ashandilya.android.get_your_cv;
 
 import android.Manifest;
 import android.content.DialogInterface;
@@ -10,6 +10,8 @@ import android.os.Bundle;
 import android.os.Environment;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
+
+import com.example.shiraz.get_your_cv.R;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.snackbar.Snackbar;
 import androidx.core.app.ActivityCompat;
@@ -81,7 +83,7 @@ public class PdfActivity extends AppCompatActivity {
         setContentView(R.layout.activity_pdf);
 
         userName = findViewById(R.id.name);
-        userID = findViewById(R.id.id);
+        //userID = findViewById(R.id.id);
         userEmail = findViewById(R.id.user_email);
         imageView_profile = findViewById(R.id.user_profileImage);
 
@@ -94,12 +96,12 @@ public class PdfActivity extends AppCompatActivity {
         if (acct != null) {
             String personName = acct.getDisplayName();
             String personEmail = acct.getEmail();
-            String personId = acct.getId();
+            //String personId = acct.getId();
             Uri personPhoto = acct.getPhotoUrl();
 
             userName.setText(personName);
             userEmail.setText(personEmail);
-            userID.setText(personId);
+            //userID.setText(personId);
             Glide.with(this).load(String.valueOf(personPhoto)).into(imageView_profile);
         }
 

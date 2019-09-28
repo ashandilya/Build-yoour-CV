@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:id="@+id/drawerLayout"
     android:background="@color/white"
-    tools:context=".DrawerActivity">
+    tools:context="com.ashandilya.android.get_your_cv.DrawerActivity">
 
     <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
@@ -19,28 +19,29 @@
 <ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PdfActivity"
+    tools:context="com.ashandilya.android.get_your_cv.PdfActivity"
     android:scrollbars="none">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="8dp">
 
         <androidx.appcompat.widget.Toolbar
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/toolBar"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             android:elevation="7dp"
+            android:layout_gravity="end"
             app:popupTheme="@style/Theme.AppCompat.Light">
 
             <Button
                 android:id="@+id/signOut"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="150dp"
+               android:textAlignment="center"
                 android:text="SignOut"/>
 
         </androidx.appcompat.widget.Toolbar>
@@ -82,14 +83,14 @@
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
-                <TextView
+              <!--  <TextView
                     android:id="@+id/id"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="@string/app_name"
                     android:textColor="@color/black"
-                    android:textSize="16sp" />
+                    android:textSize="16sp" />-->
 
                 <TextView
                     android:id="@+id/user_email"

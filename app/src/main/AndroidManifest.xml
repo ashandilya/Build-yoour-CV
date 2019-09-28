@@ -19,27 +19,27 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".googleSignIn">
+        <activity android:name="com.ashandilya.android.get_your_cv.googleSignIn">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
+        <activity android:name="com.ashandilya.android.get_your_cv.LoginActivity" />
         <activity
-            android:name=".CVActivity"
+            android:name="com.ashandilya.android.get_your_cv.CVActivity"
             android:theme="@style/CVActivity"/>
         <activity
-            android:name=".Login2Activity"
-            android:parentActivityName=".LoginActivity" />
-        <activity android:name=".DrawerActivity" />
-        <activity android:name=".ListviewActivity" />
-        <activity android:name=".MyCustomAdapter" />
-        <activity android:name=".Image1Activity" />
-        <activity android:name=".Image2Activity" />
-        <activity android:name=".Image3Activity" />
-        <activity android:name=".PdfActivity" />
+            android:name="com.ashandilya.android.get_your_cv.Login2Activity"
+            android:parentActivityName="com.ashandilya.android.get_your_cv.LoginActivity" />
+        <activity android:name="com.ashandilya.android.get_your_cv.DrawerActivity" />
+        <activity android:name="com.ashandilya.android.get_your_cv.ListviewActivity" />
+        <activity android:name="com.ashandilya.android.get_your_cv.MyCustomAdapter" />
+        <activity android:name="com.ashandilya.android.get_your_cv.Image1Activity" />
+        <activity android:name="com.ashandilya.android.get_your_cv.Image2Activity" />
+        <activity android:name="com.ashandilya.android.get_your_cv.Image3Activity" />
+        <activity android:name="com.ashandilya.android.get_your_cv.PdfActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

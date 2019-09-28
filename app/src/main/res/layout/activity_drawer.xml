@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:id="@+id/drawerLayout"
     android:background="@drawable/fade"
-    tools:context=".DrawerActivity">
+    tools:context="com.ashandilya.android.get_your_cv.DrawerActivity">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">

@@ -1,7 +1,9 @@
-package com.example.shiraz.get_your_cv;
+package com.ashandilya.android.get_your_cv;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+
+import com.example.shiraz.get_your_cv.R;
 import com.google.android.material.textfield.TextInputEditText;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
