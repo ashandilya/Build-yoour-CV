@@ -112,18 +112,6 @@ public class PdfActivity extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayShowTitleEnabled(false);
 
-        buttonSignOut = findViewById(R.id.signOut);
-        buttonSignOut.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                switch (v.getId()) {
-                    case R.id.signOut:
-                        signOut();
-                        break;
-                }
-            }
-        });
-
         fname = findViewById(R.id.fname);
         fadd = findViewById(R.id.fadd);
         email = findViewById(R.id.email);
@@ -419,16 +407,7 @@ public class PdfActivity extends AppCompatActivity {
         return true;
     }
 
-    private void signOut() {
-        mGoogleSignInClient.signOut()
-                .addOnCompleteListener(this, new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
-                        Toast.makeText(PdfActivity.this,"Signed Out Successfully!",Toast.LENGTH_LONG).show();
-                        finish();
-                    }
-                });
-    }
+
 
     private void menuItemClick() {
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
@@ -671,6 +650,11 @@ public class PdfActivity extends AppCompatActivity {
         } else {
             Toast.makeText(this, "Download any PDF Viewer to Open the Document", Toast.LENGTH_LONG).show();
         }
+    }
+
+    public void openMenu(View view) {
+        Intent intent = new Intent(PdfActivity.this,menu.class);
+        startActivity(intent);
     }
 }
 

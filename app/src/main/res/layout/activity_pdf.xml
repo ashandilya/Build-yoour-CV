@@ -37,12 +37,13 @@
             android:layout_gravity="end"
             app:popupTheme="@style/Theme.AppCompat.Light">
 
-            <Button
-                android:id="@+id/signOut"
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-               android:textAlignment="center"
-                android:text="SignOut"/>
+                android:onClick="openMenu"
+                android:src="@drawable/ic_menu_black_24dp"
+                android:id="@+id/menu"/>
+
 
         </androidx.appcompat.widget.Toolbar>
 

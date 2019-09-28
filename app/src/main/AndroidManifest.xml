@@ -3,14 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.shiraz.get_your_cv">
 
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="LOCATION_PERMISSION_REQUEST_CODE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
-    <uses-permission android:name="android.permission.INTERNET" />
-
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
@@ -19,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.ashandilya.android.get_your_cv.menu"></activity>
         <activity android:name="com.ashandilya.android.get_your_cv.googleSignIn">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,7 +22,7 @@
         <activity android:name="com.ashandilya.android.get_your_cv.LoginActivity" />
         <activity
             android:name="com.ashandilya.android.get_your_cv.CVActivity"
-            android:theme="@style/CVActivity"/>
+            android:theme="@style/CVActivity" />
         <activity
             android:name="com.ashandilya.android.get_your_cv.Login2Activity"
             android:parentActivityName="com.ashandilya.android.get_your_cv.LoginActivity" />
@@ -45,6 +38,12 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
     </application>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="LOCATION_PERMISSION_REQUEST_CODE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
 </manifest>
