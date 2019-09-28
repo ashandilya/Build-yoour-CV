@@ -799,7 +799,7 @@
             android:padding="16dp"
             android:textColor="@color/red"
             android:textSize="30sp"
-            android:fontFamily="@font/el_messiri_bold" />
+            android:fontFamily="@font/poppins" />
 
 
         <androidx.cardview.widget.CardView
@@ -824,7 +824,7 @@
                     android:id="@+id/LIST"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/el_messiri_bold"
+                    android:fontFamily="@font/poppins"
                     android:text="List your latest experience first"
                     android:textColor="#1f849f" />
 
@@ -833,7 +833,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Experience Details"
-                    android:fontFamily="@font/el_messiri"
+                    android:fontFamily="@font/poppins"
                     android:textColor="#1f849f"
                     android:textSize="20sp" />
 
@@ -842,7 +842,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Organization"
-                    android:fontFamily="@font/el_messiri_medium"
+                    android:fontFamily="@font/poppins"
                     android:textColor="@color/black"
                     android:textSize="25sp" />
 
@@ -850,10 +850,10 @@
                     android:id="@+id/org"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:autofillHints=""
+                    android:hint="Company/Organization name"
                     android:inputType="text"
                     android:textAlignment="textStart"
-                    android:fontFamily="@font/el_messiri_medium"
+                    android:fontFamily="@font/poppins"
                     android:textColor="@color/black"
                     android:textSize="25sp"/>
 
@@ -862,7 +862,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Designation"
-                    android:fontFamily="@font/el_messiri_medium"
+                    android:fontFamily="@font/poppins"
                     android:textColor="@color/black"
                     android:textSize="25sp" />
 
@@ -870,10 +870,10 @@
                     android:id="@+id/des"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:autofillHints=""
                     android:inputType="text"
+                    android:hint="Android Developer/Designer/Web developer"
                     android:textAlignment="textStart"
-                    android:fontFamily="@font/el_messiri_medium"
+                    android:fontFamily="@font/poppins"
                     android:textColor="@color/black"
                     android:textSize="25sp"/>
 
@@ -882,7 +882,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Currently employed or previously employed?"
-                    android:fontFamily="@font/el_messiri_medium"
+                    android:fontFamily="@font/poppins"
                     android:textColor="@color/black"
                     android:textSize="25sp" />
 
@@ -890,10 +890,10 @@
                     android:id="@+id/curemp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:autofillHints=""
                     android:inputType="text"
+                    android:hint="Currently employeed/Previously Employed"
                     android:textAlignment="textStart"
-                    android:fontFamily="@font/el_messiri_medium"
+                    android:fontFamily="@font/poppins"
                     android:textColor="@color/black"
                     android:textSize="25sp"/>
 
@@ -902,7 +902,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Work duration"
-                    android:fontFamily="@font/el_messiri_medium"
+                    android:fontFamily="@font/poppins"
                     android:textColor="@color/black"
                     android:textSize="25sp" />
 
@@ -916,7 +916,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="   From:"
-                        android:fontFamily="@font/el_messiri_medium"
+                        android:fontFamily="@font/poppins"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
 
@@ -924,10 +924,10 @@
                         android:id="@+id/frm"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:autofillHints=""
+                        android:hint="23/02/2005"
                         android:inputType="date"
                         android:textAlignment="textStart"
-                        android:fontFamily="@font/el_messiri_medium"
+                        android:fontFamily="@font/poppins"
                         android:textColor="@color/black"
                         android:textSize="25sp"/>
 
@@ -936,7 +936,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="   To:"
-                        android:fontFamily="@font/el_messiri_medium"
+                        android:fontFamily="@font/poppins"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
 
@@ -944,10 +944,10 @@
                         android:id="@+id/too"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:autofillHints=""
+                        android:hint="05/05/2014"
                         android:inputType="date"
                         android:textAlignment="textStart"
-                        android:fontFamily="@font/el_messiri_medium"
+                        android:fontFamily="@font/poppins"
                         android:textColor="@color/black"
                         android:textSize="25sp"/>
                 </LinearLayout>
@@ -957,7 +957,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Role"
-                    android:fontFamily="@font/el_messiri_medium"
+                    android:fontFamily="@font/poppins"
                     android:textColor="@color/black"
                     android:textSize="25sp"/>
 
@@ -965,9 +965,9 @@
                     android:id="@+id/role"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:autofillHints=""
+                    android:hint="Developer/Designer/Manager"
                     android:textAlignment="textStart"
-                    android:fontFamily="@font/el_messiri_medium"
+                    android:fontFamily="@font/poppins"
                     android:textColor="@color/black"
                     android:textSize="25sp" />
             </LinearLayout>
@@ -979,7 +979,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="‍Project"
-            android:fontFamily="@font/el_messiri_bold"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/red"
             android:padding="16dp"
             android:textSize="30sp" />
@@ -1016,7 +1016,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="project Title"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="25sp" />
 
@@ -1024,9 +1024,9 @@
             android:id="@+id/protit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="enter here"
+            android:hint="Cab booking App"
             android:textAlignment="textStart"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="25sp"/>
 
@@ -1035,7 +1035,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Description"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="25sp" />
 
@@ -1043,9 +1043,9 @@
             android:id="@+id/descri"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="enter here"
+            android:hint="Cab booking app will able to book a cab by finding nearest cab from your location."
             android:textAlignment="textStart"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="25sp" />
 
@@ -1054,7 +1054,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Duration/Time"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="25sp" />
 
@@ -1062,9 +1062,9 @@
             android:id="@+id/duratime"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="enter here"
+            android:hint="3 Months"
             android:textAlignment="textStart"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="25sp"/>
 
@@ -1073,7 +1073,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Role"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="25sp" />
 
@@ -1081,9 +1081,9 @@
             android:id="@+id/roletwo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="enter here"
+            android:hint="Backend Developer"
             android:textAlignment="textStart"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="25sp" />
 
@@ -1092,7 +1092,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Team size"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="25sp" />
 
@@ -1100,9 +1100,9 @@
             android:id="@+id/tsize"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="enter here"
+            android:hint="4"
             android:textAlignment="textStart"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="25sp"/>
 
@@ -1118,7 +1118,7 @@
             android:padding="16dp"
             android:textColor="@color/red"
             android:textSize="30sp"
-            android:fontFamily="@font/el_messiri_bold" />
+            android:fontFamily="@font/poppins" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -1142,11 +1142,11 @@
             android:id="@+id/foi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="enter here"
+            android:hint="UI/UX design/Social media marketing/App development"
             android:textSize="25sp"
             android:textAlignment="textStart"
             android:textColor="@color/black"
-            android:fontFamily="@font/el_messiri_medium" />
+            android:fontFamily="@font/poppins" />
     </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -1159,7 +1159,7 @@
             android:textColor="@color/red"
             android:textSize="30sp"
             android:padding="16dp"
-            android:fontFamily="@font/el_messiri_bold" />
+            android:fontFamily="@font/poppins" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -1187,8 +1187,8 @@
             android:textAlignment="textStart"
             android:textSize="25sp"
             android:textColor="@color/black"
-            android:fontFamily="@font/el_messiri_medium"
-            android:hint="enter here" />
+            android:fontFamily="@font/poppins"
+            android:hint="Leadership/Management/Android App developemnt/Programming language" />
     </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -1201,7 +1201,7 @@
             android:textColor="@color/red"
             android:textSize="30sp"
             android:padding="16dp"
-            android:fontFamily="@font/el_messiri_bold"/>
+            android:fontFamily="@font/poppins"/>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -1225,10 +1225,10 @@
             android:id="@+id/strength"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="enter here"
+            android:hint="Field of Experties"
             android:textSize="25sp"
             android:textColor="@color/black"
-            android:fontFamily="@font/el_messiri_medium"  />
+            android:fontFamily="@font/poppins"  />
     </LinearLayout>
     </androidx.cardview.widget.CardView>
 
