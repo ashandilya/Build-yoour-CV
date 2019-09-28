@@ -66,7 +66,7 @@
                 android:paddingBottom="24dp"
                 android:paddingHorizontal="16dp">
 
-                <ImageView
+                <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/user_profileImage"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
@@ -115,6 +115,7 @@
                         android:id="@+id/twitter"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
+                        android:onClick="linkedIn"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginEnd="15dp"
                         android:src="@drawable/linkedin"/>
@@ -124,6 +125,7 @@
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginEnd="15dp"
+                        android:onClick="facebook"
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/facebook"/>
 
@@ -132,6 +134,7 @@
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginEnd="15dp"
+                        android:onClick="twitter"
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/twitter"/>
 
@@ -139,6 +142,7 @@
                         android:id="@+id/gmail"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
+                        android:onClick="gmail"
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/gmail"/>
                 </LinearLayout>

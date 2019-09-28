@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context="com.ashandilya.android.get_your_cv.menu">
 
 
@@ -12,34 +13,53 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Button" />
+        android:layout_weight="3"
+        android:textSize="22sp"
+        android:textColor="#fff"
+        android:background="#0A3D62"
+        android:layout_marginBottom="10dp"
+        android:text="User Profile" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Button" />
+        android:layout_weight="3"
+        android:textSize="22sp"
+        android:background="#4D0069"
+        android:textColor="#fff"
+
+        android:layout_marginBottom="10dp"
+        android:text="Setting" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Button" />
+        android:layout_weight="3"
+        android:textSize="22sp"
+        android:textColor="#fff"
+        android:background="#3C40C6"
+        android:layout_marginBottom="10dp"
+        android:text="Kudos" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Button" />
+        android:layout_weight="3"
+        android:textSize="22sp"
+        android:textColor="#fff"
+        android:background="#333945"
+        android:layout_marginBottom="10dp"
+        android:text="Share with Friends" />
 
     <Button
         android:id="@+id/signOut"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:textSize="22sp"
+        android:textColor="#000"
         android:text="SignOut"/>
 </LinearLayout>

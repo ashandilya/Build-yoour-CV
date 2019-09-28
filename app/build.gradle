@@ -37,4 +37,6 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
 
     implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    //Circular ImageView
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
 }

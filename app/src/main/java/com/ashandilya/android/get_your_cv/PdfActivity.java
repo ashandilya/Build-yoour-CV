@@ -47,6 +47,7 @@ import com.itextpdf.text.pdf.PdfWriter;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
+import java.net.URI;
 import java.util.List;
 
 public class PdfActivity extends AppCompatActivity {
@@ -654,6 +655,26 @@ public class PdfActivity extends AppCompatActivity {
 
     public void openMenu(View view) {
         Intent intent = new Intent(PdfActivity.this,menu.class);
+        startActivity(intent);
+    }
+
+    public void linkedIn(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://www.linkedin.com"));
+        startActivity(intent);
+    }
+
+    public void facebook(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://www.facebook.com"));
+        startActivity(intent);
+    }
+
+    public void twitter(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://twitter.com/"));
+        startActivity(intent);
+    }
+
+    public void gmail(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" ));
         startActivity(intent);
     }
 }
