@@ -80,6 +80,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:fontFamily="@font/poppins_medium"
                     android:text="@string/app_name"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
@@ -99,6 +100,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="@string/app_name"
+                    android:fontFamily="@font/poppins"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -261,7 +263,7 @@
             android:textColor="@color/red"
             android:textSize="32sp"
             android:padding="16dp"
-            android:fontFamily="@font/el_messiri_bold" />
+            android:fontFamily="@font/poppins_bold" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -509,7 +511,7 @@
             android:padding="16dp"
             android:textColor="@color/red"
             android:textSize="30sp"
-            android:fontFamily="@font/poppins" />
+            android:fontFamily="@font/poppins_bold" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -799,7 +801,7 @@
             android:padding="16dp"
             android:textColor="@color/red"
             android:textSize="30sp"
-            android:fontFamily="@font/poppins" />
+            android:fontFamily="@font/poppins_bold" />
 
 
         <androidx.cardview.widget.CardView
@@ -979,7 +981,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="‍Project"
-            android:fontFamily="@font/poppins"
+            android:fontFamily="@font/poppins_bold"
             android:textColor="@color/red"
             android:padding="16dp"
             android:textSize="30sp" />
@@ -1118,7 +1120,7 @@
             android:padding="16dp"
             android:textColor="@color/red"
             android:textSize="30sp"
-            android:fontFamily="@font/poppins" />
+            android:fontFamily="@font/poppins_bold" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -1159,7 +1161,7 @@
             android:textColor="@color/red"
             android:textSize="30sp"
             android:padding="16dp"
-            android:fontFamily="@font/poppins" />
+            android:fontFamily="@font/poppins_bold" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -1201,7 +1203,7 @@
             android:textColor="@color/red"
             android:textSize="30sp"
             android:padding="16dp"
-            android:fontFamily="@font/poppins"/>
+            android:fontFamily="@font/poppins_bold"/>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -1241,7 +1243,7 @@
             android:textColor="@color/red"
             android:textSize="30sp"
             android:padding="16dp"
-            android:fontFamily="@font/poppins"/>
+            android:fontFamily="@font/poppins_bold"/>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -1281,7 +1283,7 @@
             android:textColor="@color/red"
             android:textSize="30sp"
             android:padding="16dp"
-            android:fontFamily="@font/poppins"/>
+            android:fontFamily="@font/poppins_bold"/>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -1364,7 +1366,7 @@
             android:layout_height="wrap_content"
             android:padding="16dp"
             android:text="Achievements"
-            android:fontFamily="@font/poppins"
+            android:fontFamily="@font/poppins_bold"
             android:textColor="@color/red"
             android:textSize="30sp" />
 
@@ -1405,7 +1407,7 @@
             android:layout_height="wrap_content"
             android:text="‍Curricular Activities"
             android:padding="16dp"
-            android:fontFamily="@font/poppins"
+            android:fontFamily="@font/poppins_bold"
             android:textColor="@color/red"
             android:textSize="30sp" />
 
@@ -1458,7 +1460,7 @@
             android:padding="16dp"
             android:textColor="@color/red"
             android:textSize="30sp"
-            android:fontFamily="@font/poppins" />
+            android:fontFamily="@font/poppins_bold" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -1584,7 +1586,7 @@
             android:textColor="@color/red"
             android:textSize="30sp"
             android:padding="16dp"
-            android:fontFamily="@font/poppins" />
+            android:fontFamily="@font/poppins_bold" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -1634,7 +1636,7 @@
             android:textColor="@color/red"
             android:textSize="30sp"
             android:padding="16dp"
-            android:fontFamily="@font/poppins" />
+            android:fontFamily="@font/poppins_bold" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
