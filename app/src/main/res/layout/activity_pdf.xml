@@ -1265,7 +1265,7 @@
             android:id="@+id/hob"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="enter here"
+            android:hint="Reading/Gaming/Research"
             android:textSize="25sp"
             android:textColor="@color/black"
             android:fontFamily="@font/el_messiri_medium"  />
@@ -1323,7 +1323,7 @@
             android:id="@+id/cdetndurone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="enter here"
+            android:hint="Company Name"
             android:textAlignment="textStart"
             android:fontFamily="@font/el_messiri_medium"
             android:textColor="@color/black"
@@ -1351,7 +1351,7 @@
             android:id="@+id/cdetndurtwo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="enter here"
+            android:hint="Enter details"
             android:fontFamily="@font/el_messiri_medium"
             android:textColor="@color/black"
             android:textSize="20sp" />
@@ -1393,7 +1393,7 @@
             android:fontFamily="@font/el_messiri_medium"
             android:textColor="@color/black"
             android:textSize="25sp"
-            android:hint="enter here" />
+            android:hint="Won 1st prize in technical festival" />
 
     </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -1445,7 +1445,7 @@
             android:textAlignment="textStart"
             android:textColor="@color/black"
             android:textSize="25sp"
-            android:hint="enter here" />
+            android:hint="Enter details" />
     </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -1491,7 +1491,7 @@
             android:id="@+id/nametwo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="enter here"
+            android:hint="Name of Person"
             android:textSize="25sp"
             android:textAlignment="textStart"
             android:textColor="@color/black"
@@ -1510,7 +1510,7 @@
             android:id="@+id/design"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="enter here"
+            android:hint="Designation of person"
             android:textSize="25sp"
             android:textAlignment="textStart"
             android:textColor="@color/black"
@@ -1522,25 +1522,25 @@
             android:layout_height="wrap_content"
             android:text="Institution name/Organization"
             android:textColor="@color/black"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textSize="25sp" />
 
         <EditText
             android:id="@+id/iname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="enter here"
+            android:hint="Name of Organization"
             android:textSize="25sp"
             android:textAlignment="textStart"
             android:textColor="@color/black"
-            android:fontFamily="@font/el_messiri_medium"/>
+            android:fontFamily="@font/poppins"/>
 
         <TextView
             android:id="@+id/EMAILID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Email id"
-            android:fontFamily="@font/el_messiri_medium"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="25sp" />
 
@@ -1548,11 +1548,11 @@
             android:id="@+id/emailid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="enter here"
+            android:hint="mr reference@gmail.com"
             android:textSize="25sp"
             android:textAlignment="textStart"
             android:textColor="@color/black"
-            android:fontFamily="@font/el_messiri_medium"/>
+            android:fontFamily="@font/poppins"/>
 
         <TextView
             android:id="@+id/MOBNO"
