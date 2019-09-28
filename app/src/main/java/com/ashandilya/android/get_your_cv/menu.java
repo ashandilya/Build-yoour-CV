@@ -3,6 +3,7 @@ package com.ashandilya.android.get_your_cv;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -48,6 +49,8 @@ public class menu extends AppCompatActivity {
                 .addOnCompleteListener(this, new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
+                        Intent intent = new Intent(menu.this,googleSignIn.class);
+                        startActivity(intent);
                         Toast.makeText(menu.this,"Signed Out Successfully!",Toast.LENGTH_LONG).show();
                         finish();
                     }
