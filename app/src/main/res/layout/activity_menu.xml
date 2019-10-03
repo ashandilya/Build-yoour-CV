@@ -17,7 +17,7 @@
         android:textSize="22sp"
         android:textColor="#fff"
         android:clickable="true"
-        android:background="#0A3D62"
+        android:background="@drawable/userprofilegrad"
         android:layout_marginBottom="10dp"
         android:text="User Profile" />
 
@@ -28,9 +28,8 @@
         android:layout_weight="3"
         android:clickable="true"
         android:textSize="22sp"
-        android:background="#4D0069"
+        android:background="@drawable/settingprofilegrad"
         android:textColor="#fff"
-
         android:layout_marginBottom="10dp"
         android:text="Setting" />
 
@@ -42,7 +41,7 @@
         android:clickable="true"
         android:textSize="22sp"
         android:textColor="#fff"
-        android:background="#3C40C6"
+        android:background="@drawable/kudosprofilegrad"
         android:layout_marginBottom="10dp"
         android:text="Kudos" />
 
@@ -54,7 +53,7 @@
         android:clickable="true"
         android:textSize="22sp"
         android:textColor="#fff"
-        android:background="#333945"
+        android:background="@drawable/sharewithfriendsgrad"
         android:layout_marginBottom="10dp"
         android:text="Share with Friends" />
 
@@ -64,6 +63,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:textSize="22sp"
-        android:textColor="#000"
+        android:textColor="#fff"
+        android:background="@drawable/signoutgrad"
         android:text="SignOut"/>
 </LinearLayout>
