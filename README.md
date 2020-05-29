@@ -1,7 +1,7 @@
 # Build-yoour-CV
 
-![Image Description](https://ibb.co/xzm8M0h)
+![Image Description](https://i.ibb.co/ZcH1hPd/CVMaker-SS1.png)
 
-![Image Description](https://ibb.co/bmPvKZG)
+![Image Description](https://i.ibb.co/c318rHs/CVMaker-SS2.png)
 
-![Image Description](https://ibb.co/cbqmLKd)
+![Image Description](https://i.ibb.co/M8dX6yL/CVMaker-SS3.png)
